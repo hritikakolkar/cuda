@@ -24,20 +24,28 @@ sudo rm -rf /usr/local/cuda*
 ```
 
 ### system update
+```
 sudo apt-get update
 sudo apt-get upgrade
+```
 
 ### install other import packages
+```
 sudo apt-get install g++ freeglut3-dev build-essential libx11-dev libxmu-dev libxi-dev libglu1-mesa libglu1-mesa-dev
+```
 
 ### first get the PPA repository driver
+```
 sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
+```
 
 ### install nvidia driver with dependencies
+```
 sudo apt install libnvidia-common-515
 sudo apt install libnvidia-gl-515
 sudo apt install nvidia-driver-515
+```
 
 ### Install CUDA
 ```
